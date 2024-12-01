@@ -1,6 +1,6 @@
 # PHNet
 This is the official code for our paper:
-> > [Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation](https://arxiv.org/abs/2303.13111)  
+> [Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation](https://arxiv.org/abs/2303.13111)  
 > Yi Lin*, Xiao Fang*, Dong Zhang, Kwang-Ting Cheng, Hao Chen
 
 ## Usage
