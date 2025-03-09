@@ -1,6 +1,6 @@
 # PHNet
-This is the official code for our paper:
-> [Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation](https://arxiv.org/abs/2303.13111)  
+This is the official code for our IEEE Transactions on Medical Imaging paper:
+> [Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation](https://ieeexplore.ieee.org/document/10843792)  
 > Yi Lin*, Xiao Fang*, Dong Zhang, Kwang-Ting Cheng, Hao Chen
 
 ## Usage
@@ -27,7 +27,7 @@ sh run_net.sh
 ``` 
 
 
-Synapse: We follow the data split of [TransUNet](https://github.com/Beckschen/TransUNet?tab=readme-ov-file) and use [nnUNet framework](https://github.com/MIC-DKFZ/nnUNet) for data preprocessing, training and testing.  
+Synapse: We follow the data split of [TransUNet](https://github.com/Beckschen/TransUNet?tab=readme-ov-file) and use [nnUNet framework](https://github.com/MIC-DKFZ/nnUNet) for data preprocessing, training and testing. During training, the nnUNet framework partitions the training data into five folds. We use four folds for training and one for validation. We provide the data split in the "DATA/Synapse" folder.
 
 MSD BraTS: We follow [VT-UNet](https://github.com/himashi92/VT-UNet) for data preprocessing, training and testing.  
 
@@ -41,5 +41,14 @@ We thank [MONAI](https://github.com/Project-MONAI/tutorials), [nnUNet](https://g
 ### Citation
 Please cite the paper if you use the code.
 ```bibtex
-TO BE ADDED
+@ARTICLE{PHNet,
+  author={Lin, Yi and Fang, Xiao and Zhang, Dong and Cheng, Kwang-Ting and Chen, Hao},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Transformers;Three-dimensional displays;Image segmentation;Convolutional neural networks;Feature extraction;Computer architecture;Computational efficiency;Decoding;Technological innovation;Synapses},
+  doi={10.1109/TMI.2025.3530113}}
 ```
