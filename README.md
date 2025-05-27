@@ -1,6 +1,6 @@
 # PHNet
 This is the official code for our IEEE Transactions on Medical Imaging paper:
-> [Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation](https://ieeexplore.ieee.org/document/10843792)  
+> [Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation](https://arxiv.org/abs/2303.13111)  
 > Yi Lin*, Xiao Fang*, Dong Zhang, Kwang-Ting Cheng, Hao Chen
 
 ## Usage
