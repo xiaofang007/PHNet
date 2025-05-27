@@ -44,11 +44,11 @@ Please cite the paper if you use the code.
 @ARTICLE{PHNet,
   author={Lin, Yi and Fang, Xiao and Zhang, Dong and Cheng, Kwang-Ting and Chen, Hao},
   journal={IEEE Transactions on Medical Imaging}, 
-  title={Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation}, 
+  title={Boosting Convolution With Efficient MLP-Permutation for Volumetric Medical Image Segmentation}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Transformers;Three-dimensional displays;Image segmentation;Convolutional neural networks;Feature extraction;Computer architecture;Computational efficiency;Decoding;Technological innovation;Synapses},
+  volume={44},
+  number={5},
+  pages={2341-2352},
+  keywords={Transformers;Three-dimensional displays;Image segmentation;Convolutional neural networks;Feature extraction;Computer architecture;Computational efficiency;Decoding;Technological innovation;Synapses;Medical image segmentation;convolution neural network (CNN);multi-layer perceptron (MLP)},
   doi={10.1109/TMI.2025.3530113}}
 ```
